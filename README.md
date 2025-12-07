@@ -7,8 +7,7 @@ This repository contains a complete **end-to-end SQL project** analyzing **US Ho
 
 The goal of this project is to demonstrate real-world data cleaning, transformation, and exploratory analysis techniques using SQL.
 
----
-## 📌 **Project Overview**
+## **Project Overview**
 This project works with two tables:
 - `us_household_income`
 - `us_household_income_statistics`
@@ -20,8 +19,7 @@ Across both scripts, you will:
 - Explore income patterns across states, cities, and community types
 - Join datasets to uncover deeper insights
 
----
-## 📁 **Repository Contents**
+## **Repository Contents**
 ### **1. Data Cleaning Script** (`US Household Income Data Cleaning.sql`)
 Key tasks performed:
 - Renamed incorrect column names
@@ -43,15 +41,13 @@ Core analytical steps:
 - Investigated community types with lowest average income
 - Analyzed income patterns at **city-level granularity**
 
----
-## 🛠️ **Technologies Used**
+## **Technologies Used**
 - **SQL** (MySQL / PostgreSQL compatible)
 - Window Functions
 - Grouping, Filtering, Joining
 - Aggregation techniques
 
----
-## 📊 **Insights You Can Derive**
+## **Insights You Can Derive**
 ✔ State-wise income comparison (Mean vs Median)  
 ✔ City-level income distribution  
 ✔ Community-type income disparities  
@@ -60,29 +56,24 @@ Core analytical steps:
 
 (You can customize this section if you'd like the exact insights from your output.)
 
----
-## 🚀 How to Run the SQL Scripts
+## How to Run the SQL Scripts
 1. Import both tables (`us_household_income` and `us_household_income_statistics`) into your SQL database.  
 2. Run the **Data Cleaning** script **first** to fix inconsistencies.  
 3. Run the **Data Exploration** script to generate insights.  
 4. Modify queries as needed to extend the analysis.
 
----
-## 📌 **Future Enhancements**
+## **Future Enhancements**
 - Build a **Tableau / Power BI dashboard** using the cleaned dataset
 - Add geo-visualizations (state/county-level heatmaps)
 - Export final tables for machine learning analysis
 - Connect analysis with US Census or public demographic datasets
 
----
-## 🤝 **Contributing**
+## **Contributing**
 Feel free to contribute improvements or additional analytical queries.
 
----
-## 📜 **License**
+## **License**
 This project is open-source under the MIT License.
 
----
 If you want, I can also:
 - Create a **requirements.txt** (if you add Python later)
 - Design a **Power BI dashboard layout** for this dataset
